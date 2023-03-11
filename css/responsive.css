@@ -1,0 +1,167 @@
+@media (min-width: 1366px) { 
+	.container{
+		max-width: 1255px;
+	}
+	.choose_area{
+		padding-left: calc((100% - 1255px) / 2 + 15px);
+	}
+}
+@media (min-width: 1200px) and (max-width: 1365.99px) {
+	.container{
+		max-width: 1170px;
+	}
+	.choose_area{
+		padding-left: calc((100% - 1170px) / 2 + 15px);
+	}
+	html{
+		font-size: 58.3%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.choose_area{
+		padding-left: calc((100% - 960px) / 2 + 15px);
+	}
+	html{
+		font-size: 48%;
+	}
+}
+@media (max-width: 991.98px) {
+	#menu{
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+	.ofcavas-menu {
+		display: block;
+	}
+	html{
+		font-size: 52.5%;
+	}
+	.home_wrapper .heading {
+		font-size: 3.3rem;
+		line-height: 3.6rem;
+	}
+	.home_wrapper .sub_heading {
+    	font-size: 2rem;
+	}
+	.experience_right{
+		text-align: center;
+		margin-top: 3rem;
+	}
+	.media{
+		text-align: left;
+		margin-top: 3rem;
+	}
+	.experience_right h2 {
+		max-width: 60rem;
+		margin: 0 auto;
+		padding: 2rem 0;
+	}
+	.em_bar_bg {
+    	margin: 0 auto;
+	}
+	.experience_right h3 {
+		font-size: 2.9rem;
+		max-width: 74rem;
+		margin: 0 auto;
+		padding-top: 2.5rem;
+	}
+	.services_area{
+		margin-top: -8rem;
+	}
+	.services_area .title h2{
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	.pricing_area  .title h2{
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	.price_top h4 sup {
+    	left: 12rem;
+	}
+	.title h2 {
+		max-width: 59rem;
+		margin: 0 auto;
+		padding-bottom: 1rem;
+	}
+	.overview-content p {
+    	line-height: 1.5;
+    	max-width: 63rem;
+	}
+	.hero_padd{
+		margin-top: 15rem;
+	}
+	.news_area .title h2{
+		text-align: center;
+	}
+	.overview-content .features-list li {
+    	flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	.about_page .title{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.title h2 {
+		max-width: 73rem;
+		padding: 1rem 0;
+		text-align: center;
+	}
+	.features_area ul {
+    	column-count: 1;
+	}
+	.about_page .title p {
+    	text-align: center;
+	}
+	.choose_area {
+    	flex-direction: column;
+	}
+	.choose_left {
+		width: 100%;
+	}
+	.choose_left h3{
+		text-align: center;
+	}
+	.accordion {
+    	margin: 2rem 14.7rem 2rem 15.1rem;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	html{
+		font-size: 50%;
+	}
+	.price_top h4 sup {
+    	left: 24rem;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	html{
+		font-size: 2vw;
+	}
+	.price_top h4 sup {
+    	left: 16rem;
+	}
+	.about_cart {
+    	top: 40rem; 
+    	left: 1rem;
+    	padding: 1rem;
+	}
+	.features_area ul {
+    	padding: 2rem;
+	}
+	.accordion {
+    	margin: 2rem -1.7rem 2rem 1.2rem;
+	}
+
+}
+
+
